@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `4  – 7 NOVIEMBRE PARQUE ARBOLEDA`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `FAMA es la primera feria de arte accesible del norte de México, cuenta con tres ediciones. Es una plataforma para artistas emergentes, en donde pueden vender sus obras de arte con un costo máximo de $60,000 MXN.`,
+    author: `@monumento`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
