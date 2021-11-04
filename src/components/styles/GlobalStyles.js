@@ -40,4 +40,8 @@ export const GlobalStyle = createGlobalStyle`
     button:focus {
       outline: 0;
     }
+    img {
+      padding: 0;
+      margin: 0;
+    }
 `

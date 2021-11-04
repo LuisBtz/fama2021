@@ -1,8 +1,9 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
+
 
 const IndexPage = () => (
   <Layout>
@@ -25,22 +26,20 @@ const IndexPage = () => (
     </Texto>
     <Duo>
       <div className='element-duo'>
-        <StaticImage
-          src="../images/FAMA_WEB_1.jpg"
-          layout="fullWidth"
-          // quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
+        <img
+          src="./FAMA_WEB_1.jpg"
+          // formats={["AUTO", "WEBP", "AVIF"]}
           alt="FAMA 2021 4-7 de noviembre"
           // style={{ marginBottom: `1.45rem` }}
         />
       </div>
       <div className='element-duo'>
         <a href="/FAMA_2021_CONVOCATORIA.pdf" download >
-          <StaticImage
-            src="../images/FAMA_WEB_2.jpg"
-            layout="fullWidth"
+          <img
+            src="./FAMA_WEB_2.jpg"
+            // layout="fullWidth"
             // quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
+            // formats={["AUTO", "WEBP", "AVIF"]}
             alt="Descargar aplicación"
             // style={{ marginBottom: `1.45rem` }}
           />
@@ -50,22 +49,22 @@ const IndexPage = () => (
     </Duo>
     <Duo>
       <div className='element-duo'>
-        <StaticImage
-          src="../images/FAMA_WEB_3.jpg"
-          layout="fullWidth"
+        <img
+          src="./FAMA_WEB_3.jpg"
+          // layout="fullWidth"
           // quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
+          // formats={["AUTO", "WEBP", "AVIF"]}
           alt="FAMA es la primera feria de arte accesible del norte de México"
           // style={{ marginBottom: `1.45rem` }}
         />
       </div>
       <div className='element-duo'>
-        <StaticImage
-          src="../images/FAMA_WEB_4.jpg"
-          layout="fullWidth"
+        <img
+          src="./FAMA_WEB_4.jpg"
+          // layout="fullWidth"
           // quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="FAMA image"
+          // formats={["AUTO", "WEBP", "AVIF"]}
+          alt="FAMA Feria de arte accesible del norte de México"
           // style={{ marginBottom: `1.45rem` }}
         />
       </div>
@@ -73,21 +72,21 @@ const IndexPage = () => (
     </Duo>
     <Duo>
       <div className='element-duo'>
-        <StaticImage
-          src="../images/FAMA_WEB_5.jpg"
-          layout="fullWidth"
+        <img
+          src="./FAMA_WEB_5.jpg"
+          // layout="fullWidth"
           // quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="FAMA Image"
+          // formats={["AUTO", "WEBP", "AVIF"]}
+          alt="FAMA Feria de arte accesible del norte de México"
           // style={{ marginBottom: `1.45rem` }}
         />
       </div>
       <div className='element-duo'>
-        <StaticImage
-          src="../images/FAMA_WEB_6.jpg"
-          layout="fullWidth"
+        <img
+          src="./FAMA_WEB_6.jpg"
+          // layout="fullWidth"
           // quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
+          // formats={["AUTO", "WEBP", "AVIF"]}
           alt="Cómo funciona"
           // style={{ marginBottom: `1.45rem` }}
         />
@@ -97,22 +96,22 @@ const IndexPage = () => (
     <Duo>
       <div className='element-duo'>
         <a href='mailto:convocatoria@f-a-m-a.com'>
-          <StaticImage
-            src="../images/FAMA_WEB_7.jpg"
-            layout="fullWidth"
+          <img
+            src="./FAMA_WEB_7.jpg"
+            // layout="fullWidth"
             // quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
+            // formats={["AUTO", "WEBP", "AVIF"]}
             alt="mail"
             // style={{ marginBottom: `1.45rem` }}
           />
         </a>
       </div>
       <div className='element-duo'>
-        <StaticImage
-          src="../images/FAMA_WEB_8.jpg"
-          layout="fullWidth"
+        <img
+          src="./FAMA_WEB_8.jpg"
+          // layout="fullWidth"
           // quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
+          // formats={["AUTO", "WEBP", "AVIF"]}
           alt="Fecha límite 10 de agosto"
           // style={{ marginBottom: `1.45rem` }}
         />
@@ -127,6 +126,10 @@ const Duo = styled.section`
   display: flex;
   .element-duo {
     width: 50%;
+    display: flex;
+    a {
+      display: flex;
+    }
   }
 
   @media (max-width: 650px) {
